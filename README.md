@@ -10,7 +10,7 @@
 ## Instruções de instalação
 ### Pré-requisitos
 
-- Python
+- Python 3.11.X
 - Conta no Supabase (Para poder utilizar as credenciais URL e KEY)
 - Utilizar o esquema presente nos arquivos (banco.sql) para o Supabase
 
