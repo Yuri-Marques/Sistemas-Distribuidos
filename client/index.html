@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEMA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="auth-screen" class="screen show">
+        <div class="login-container">
+            <h2>LOGIN</h2>
+            <form id="login-form">
+                <input type="email" id="email-login" placeholder="Email" required>
+                <input type="password" id="password-login" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
+            </form>
+            <p id="error-message" class="hidden"></p>
+        </div>
+    </div>
+
+    <div id="seats-screen" class="screen hidden">
+        <header>
+            <h1><span id="welcome-message">Bem-vindo</span></h1>
+            <button onclick="logout()" id="logout-btn">Sair</button>
+        </header>
+
+        <main>
+            <div class="screen-indicator">TELA</div>
+
+            <div class="legend">
+                <div class="legend-item"><span class="block vip"></span> VIP Disponível</div>
+                <div class="legend-item"><span class="block normal"></span> Normal Disponível</div>
+                <div class="legend-item"><span class="block ocupado"></span> Ocupado</div>
+            </div>
+
+            <div id="seats-map" class="seats-grid">
+                </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
