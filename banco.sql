@@ -7,7 +7,7 @@ create table public.seats (
   constraint seats_pkey primary key (id)
 ) TABLESPACE pg_default;
 
-insert into assentos (id, status, categoria) values
+insert into seats (id, status, category) values
 ('A1', 'disponivel', 'VIP'), ('A2', 'disponivel', 'VIP'), ('A3', 'disponivel', 'VIP'), ('A4', 'disponivel', 'VIP'), ('A5', 'disponivel', 'VIP'),
 ('B1', 'disponivel', 'VIP'), ('B2', 'disponivel', 'VIP'), ('B3', 'disponivel', 'VIP'), ('B4', 'disponivel', 'VIP'), ('B5', 'disponivel', 'VIP'),
 ('C1', 'disponivel', 'VIP'), ('C2', 'disponivel', 'VIP'), ('C3', 'disponivel', 'VIP'), ('C4', 'disponivel', 'VIP'), ('C5', 'disponivel', 'VIP'),
