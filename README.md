@@ -26,7 +26,7 @@ Instalação das bibliotecas através do comando: pip install fastapi uvicorn su
 
 ### No diretório server/
 - Prosseguir o comando: python main.py
-- Assim o backend ficará disponível em: http://localhost:8000
+- Assim o servidor irá ser iniciado.
 
 ### No diretório client/ 
 - Prosseguir o comando: python -m http.server 5500
