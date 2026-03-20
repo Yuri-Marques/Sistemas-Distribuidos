@@ -33,7 +33,7 @@ Instalação das bibliotecas através do comando: pip install fastapi uvicorn su
 - Acessar o sistema através de: http://localhost:5500
 
 ## Estrutura
-
+''' text
 ├── client/ # Frontend da aplicação
 │ ├── index.html # Interface (login + assentos)
 │ ├── style.css # Estilização
