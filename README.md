@@ -11,7 +11,7 @@
 ### Pré-requisitos
 
 - Python 3.11.X
-- Conta no Supabase (Para poder utilizar as credenciais URL e KEY)
+- Conta no Supabase (Para poder utilizar as credenciais URL e KEY) e ter acesso ao banco de dados
 - Utilizar o esquema presente nos arquivos (banco.sql) para o Supabase
 
 ### Bibliotecas python para funcionamento
